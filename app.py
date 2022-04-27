@@ -6,6 +6,13 @@ import plotly.express as px
 st.title('DeepLearning Project')
 st.subheader('Classification model for transports')
 
+hd_st_style = """
+        <style>
+         #MainMenu {visibility: hidden;}
+         footer {visibility: hidden;}
+         header {visibility: hidden;}
+        </style>
+        """
 #file_uploader
 file = st.file_uploader('Upload image', type=['svg', 'png', 'jpg', 'jpeg'])
 
