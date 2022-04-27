@@ -13,6 +13,8 @@ hd_st_style = """
          header {visibility: hidden;}
         </style>
         """
+
+st.markdown(hd_st_style, unsafe_allow_html=True)
 #file_uploader
 file = st.file_uploader('Upload image', type=['svg', 'png', 'jpg', 'jpeg'])
 
